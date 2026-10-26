@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="gravity_bg">#0B0F19</color>
+    <color name="gravity_surface">#131B2E</color>
+    <color name="gravity_accent">#6366F1</color>
+    <color name="gravity_accent_glow">#4F46E5</color>
+    <color name="gravity_text_primary">#F1F5F9</color>
+    <color name="gravity_text_secondary">#94A3B8</color>
+    <color name="gravity_border">#1E293B</color>
+</resources>

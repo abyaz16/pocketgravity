@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">PocketGravity</string>
+    <string name="connecting">Connecting to PocketGravity...</string>
+    <string name="connection_error">Unable to reach laptop daemon.</string>
+    <string name="retry">Retry Connection</string>
+    <string name="settings">Connection Settings</string>
+</resources>

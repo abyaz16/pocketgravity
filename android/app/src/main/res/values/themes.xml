@@ -1,0 +1,14 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.PocketGravity" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color -->
+        <item name="colorPrimary">@color/gravity_accent</item>
+        <item name="colorPrimaryVariant">@color/gravity_accent_glow</item>
+        <item name="colorOnPrimary">@color/gravity_text_primary</item>
+        <!-- Status bar color -->
+        <item name="android:statusBarColor">@color/gravity_bg</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <!-- Background color -->
+        <item name="android:windowBackground">@color/gravity_bg</item>
+        <item name="android:navigationBarColor">@color/gravity_bg</item>
+    </style>
+</resources>

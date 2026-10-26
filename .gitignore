@@ -1,0 +1,73 @@
+# =============================================================================
+# PocketGravity Hardened .gitignore
+# =============================================================================
+
+# --- Environment & Cryptographic Secrets ---
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.crt
+*.cer
+*.pfx
+*.p12
+
+# --- Python & Virtual Environments ---
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+ENV/
+.pip_cache/
+*.egg-info/
+.pytest_cache/
+
+# --- Node & Frontend Client Build Artifacts ---
+node_modules/
+client/node_modules/
+client/dist/
+.npm_cache/
+client/.npm_cache/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# --- Android Mobile App & Gradle ---
+android/.gradle/
+android/build/
+android/*/build/
+android/local.properties
+android/.idea/
+android/*.iml
+android/*/*.iml
+*.apk
+*.aab
+*.jks
+*.keystore
+
+# --- Windows & Native Desktop Runtime ---
+.desktop_profile/
+@AutomationLog.txt
+*.log
+*.bak
+*.bak_*
+*.tmp
+*.swp
+
+# --- Compiled Executables ---
+*.exe
+
+# --- OS & Editor Metadata ---
+.DS_Store
+Thumbs.db
+ehthumbs.db
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
